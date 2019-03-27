@@ -46,10 +46,10 @@ const bissecao = (fun, intervaloInicial, PRECISAO = 0.001, N=1000) => {
     const calcularConvoluccao = bissecao(fn, intervaloInicial, precisao, numeroIteracoes);
 
     console.log(`
-    ***********************************************************************
-        Calculando a convolução para a função fn = (x^2 + ln x),
-        temos que o valor aproximado da raiz resulta em: ${calcularConvoluccao}
-    ***********************************************************************
+****************************************************************************
+    Calculando a convolução para a função fn = (x^2 + ln x),
+    temos que o valor aproximado da raiz resulta em: ${calcularConvoluccao}
+****************************************************************************
     `)
 })()
 
